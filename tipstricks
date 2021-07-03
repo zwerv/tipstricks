@@ -1,0 +1,39 @@
+VI TIPS:
+select = command mode 'v', select text with arrows, 'y' (=yank), to paste 'p' 
+select text, press ':' then enter 's/^/  /' this substitutess 's/' spaces '/   /' for each line's beginning '^'
+gg = begin, G = einde, v = select, V = selecteer regel, u=lowercase, U= Uppercase
+--> to convert document to lower- or uppercase: ggVGu of ggVGU
+
+-------------------------------------------------------------------------
+
+locale	: Display language variables 	| 	-a displays all
+less	: Per page view
+ls 	: list content			|	-l = long  
+find	: search for files 		| 	count of files changed last day :
+						 find -ctime -1 | wc -l
+df [directory] -h: disk space usage (h= human-readable)
+rm -i	: remove interactively
+rm -rf	: recursively delete filetree (:-[
+mkdir/rmdir:	
+testdisk: testing physical disk (explore more!)
+scalpel	: retrieving deleted files
+shred	: =rm but complete with overwrite
+trash	: =rm but to trashcan (recovery possible)
+cat /proc/sys/kernel/random/entropy_avail : shows entropy of system
+gpg	: -c = create | -d =decrypt | no option but filename= extract original file
+top	: monitor all processes, update every 2 sec, press f for changing view, press 1 for all processors
+vmstat -a 2 100: show memory usage, every 2 secs, a 100 times
+pstree	: treeview of all active processes/tasks
+ps	: list active processes
+at + 1 minutes, hours, days	:schedule a task, enter command, end with CTRL+D  [DOESNT WORK !!!]
+echo -e "/007"	: BEEP  [DOESNT WORK !!!]
+echo -e \a	: BEEP [DOESNT WORK !!!]
+lsmod	: list all modules loaded by kernel
+uname -sr	: echo current kernel version
+mount	: without arguments, show all mounted filesystems (snap dev proc ....)
+
+
+
+TEST
+TEST
+TEST
