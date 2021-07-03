@@ -36,7 +36,6 @@ mount	: without arguments, show all mounted filesystems (snap dev proc ....)
 git add tipstricks
 git commit
 git push -u origin main
-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
 
 
 TEST
