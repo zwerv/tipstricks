@@ -31,7 +31,8 @@ echo -e \a	: BEEP [DOESNT WORK !!!]
 lsmod	: list all modules loaded by kernel
 uname -sr	: echo current kernel version
 mount	: without arguments, show all mounted filesystems (snap dev proc ....)
-
+git check
+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
 
 
 TEST
