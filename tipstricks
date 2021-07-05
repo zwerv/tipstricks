@@ -3,6 +3,7 @@ select = command mode 'v', select text with arrows, 'y' (=yank), to paste 'p'
 select text, press ':' then enter 's/^/  /' this substitutess 's/' spaces '/   /' for each line's beginning '^'
 gg = begin, G = einde, v = select, V = selecteer regel, u=lowercase, U= Uppercase
 --> to convert document to lower- or uppercase: ggVGu of ggVGU
+select txt, type gq to force text to 80 columns wide
 
 -------------------------------------------------------------------------
 
