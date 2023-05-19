@@ -38,7 +38,6 @@ git add tipstricks
 git commit
 git push -u origin main
 
-
-TEST
-TEST
-TEST
+Ok, test to commit a change to this repo from vscode.dev
+Automatically under graph symbol a change, with option to commit
+This line, I won't save, to check if it commits saved or open version
