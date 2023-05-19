@@ -41,3 +41,5 @@ git push -u origin main
 Ok, test to commit a change to this repo from vscode.dev
 Automatically under graph symbol a change, with option to commit
 This line, I won't save, to check if it commits saved or open version
+
+Test Ok: even unsaved changes get committed 
